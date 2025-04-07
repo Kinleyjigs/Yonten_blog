@@ -1,4 +1,4 @@
-# 🍥Fuwari
+# 🍥Yonten
 
 [Astro](https://astro.build)로 구축된 정적 블로그 템플릿입니다.
 
