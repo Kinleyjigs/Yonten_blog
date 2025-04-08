@@ -2,7 +2,7 @@
 title: Blue
 published: 2025-04-08
 description: "How to use this blog template."
-image: "../../assets/images/footprinting/footprinting.jpg"
+image: "../../assets/images/CTF/Blue/blue.png"
 tags: ["window machine"]
 category: CTF Hack The Box
 draft: false
@@ -70,19 +70,19 @@ Then hits exploit again
 
 Now i was able to enter inside the target machine’s  computer
 
-![alt text](<../../assets/images/CTF/Blue/image 10.png>)
+
 
 ### User Flag
+![alt text](<../../assets/images/CTF/Blue/image 10.png>)
 
-![alt text](<../../assets/images/CTF/Blue/image 11.png>)
 
 ### Root Flag
+![alt text](<../../assets/images/CTF/Blue/image 11.png>)
 
-![alt text](<../../assets/images/CTF/Blue/image 12.png>)
 
 ### Machine completed
+![alt text](<../../assets/images/CTF/Blue/image 12.png>)
 
-![alt text](<../../assets/images/CTF/Blue/image.png>)
 
 ## Learning
 - improved on using metasploit
