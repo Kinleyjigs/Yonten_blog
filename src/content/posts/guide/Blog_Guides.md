@@ -3,7 +3,7 @@ title: Simple Blog Guides
 published: 2025-04-01
 description: "How to use this blog template."
 image: "./cover.jpeg"
-tags: ["Yonten", "Blogging", "Customization"]
+tags: ["Customization"]
 category: Guides
 draft: false
 ---
