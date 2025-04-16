@@ -8,5 +8,3 @@ category: SWS notes
 draft: false
 ---
 
-## Enumeration
-
