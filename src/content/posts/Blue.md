@@ -1,7 +1,7 @@
 ---
 title: Blue
 published: 2025-04-08
-description: "How to use this blog template."
+description: "Blue CTF"
 image: "../../assets/images/CTF/Blue/blue.png"
 tags: ["window machine"]
 category: CTF Hack The Box

@@ -1,7 +1,7 @@
 ---
 title: Titanic
 published: 2025-04-08
-description: "How to use this blog template."
+description: "CTF Titanic"
 image: "../../assets/images/CTF/Titanic/Titanic.webp"
 tags: ["window machine"]
 category: CTF Hack The Box

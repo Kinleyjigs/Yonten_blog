@@ -1,7 +1,7 @@
 ---
 title: Host and Port Scanning
 published: 2025-04-16
-description: "How to use this blog template."
+description: "Nmap port scans"
 image: "../../assets/images/nmap/nmap.png"
 tags: ["Scan", "Learning"]
 category: Nmap

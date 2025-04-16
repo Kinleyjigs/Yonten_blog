@@ -1,7 +1,7 @@
 ---
 title: Enumeration
 published: 2025-04-05
-description: "How to use this blog template."
+description: "Nmap Enumerations "
 image: "../../assets/images/nmap/nmap.png"
 tags: ["Scan", "Learning"]
 category: Nmap
