@@ -47,6 +47,4 @@ Run these from the project root:
 | `pnpm preview` | Preview the production build |
 | `pnpm new-post <filename>` | Create a new blog post |
 
-## My Accounts 
 
-- GitHub: [Kinleyjigs](https://github.com/Kinleyjigs)
