@@ -55,13 +55,6 @@ export const profileConfig: ProfileConfig = {
   name: 'Yonten',
   bio: 'trust nothing. verify.',
   links: [
-    {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
-                                        // You will need to install the corresponding icon set if it's not already included
-                                        // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://x.com/yonten1888809',
-    },
     // {
     //   name: 'Steam',
     //   icon: 'fa6-brands:steam',

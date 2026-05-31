@@ -32,11 +32,31 @@ if (isLocal) {
   let normalizedPath = path
     .normalize(path.join('../../', basePath, src))
     .replace(/\\/g, '/')
-  const file = files[normalizedPath]
+
+  // Try direct lookup, then fallback to fuzzy matching of available keys
+  let file = files[normalizedPath]
+  if (!file) {
+    const candidates = Object.keys(files).filter((k) => k.endsWith(src) || k.includes(src))
+    if (candidates.length > 0) {
+      file = files[candidates[0]]
+    }
+  }
+
   if (!file) {
     console.error(`\n[ERROR] Image file not found: ${normalizedPath.replace('../../', 'src/')}`)
+  } else {
+    try {
+      if (typeof file === 'function') {
+        img = await file()
+      } else if (file && typeof file === 'object' && 'default' in file) {
+        img = file.default
+      } else {
+        img = file
+      }
+    } catch (e) {
+      console.error('\n[ERROR] Failed to load image file for', normalizedPath, e)
+    }
   }
-  img = await file()
 }
 
 const imageClass = 'w-full h-full object-cover'

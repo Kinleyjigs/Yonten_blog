@@ -1,5 +1,5 @@
 ---
-title: Introduction to NoSQL Databases
+title: "Unit 1: Introduction to NoSQL Databases"
 published: 2026-03-21
 description: "shells"
 image: "./NoSQLdb.jpg"
